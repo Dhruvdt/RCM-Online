@@ -1,0 +1,62 @@
+<resources>
+    <!--views margin-->
+    <dimen name="margin_override_one">5dp</dimen>
+    <dimen name="margin_override_two">8dp</dimen>
+    <dimen name="margin_override_three">10dp</dimen>
+    <dimen name="margin_override_fifth">24dp</dimen>
+    <dimen name="margin_override_sixth">70dp</dimen>
+
+    <dimen name="row_padding_vertical">10dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+
+    <dimen name="padding_10">10dp</dimen>
+    <!--CardView Margin-->
+
+    <!--views Padding-->
+    <dimen name="padding_override_one">5dp</dimen>
+    <dimen name="padding_large_view">30dp</dimen>
+    <dimen name="left_right_padding">24dp</dimen>
+
+    <!--in sp-->
+    <dimen name="font_size_two">12sp</dimen>
+    <dimen name="header_title">30sp</dimen>
+    <dimen name="header_subtitle">19sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+
+    <dimen name="card_margin">3dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+
+
+    <dimen name="text_size_xmedium">14dp</dimen>
+    <!--Strings-->
+
+
+    <dimen name="view_width_small">1dp</dimen>
+
+
+    <dimen name="space">20dp</dimen>
+
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_22dp">22dp</dimen>
+    <dimen name="dimen_23dp">23dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_65dp">65dp</dimen>
+
+
+    <!--views Padding-->
+    <dimen name="padding_override_three">14dp</dimen>
+
+    <!--in sp-->
+
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+</resources>
