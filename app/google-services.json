@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121640495318",
+    "firebase_url": "https://rsm-online-dd70e.firebaseio.com",
+    "project_id": "rsm-online-dd70e",
+    "storage_bucket": "rsm-online-dd70e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121640495318:android:9f292ffdc0f7ea2ad2c177",
+        "android_client_info": {
+          "package_name": "com.dhruvdt.rsmonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121640495318-16knelr6vk8713d48jd0aap1jvq6uhug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHAPPxAe_ffT9MNMYL-dD5jBDA7vhV924"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121640495318-16knelr6vk8713d48jd0aap1jvq6uhug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
