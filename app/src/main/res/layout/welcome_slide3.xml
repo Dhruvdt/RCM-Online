@@ -16,7 +16,7 @@
         android:gravity="center"
         android:lineSpacingExtra="2dp"
         android:paddingTop="@dimen/padding_large_view"
-        android:text="Huge Collection of Shabd Videos"
+        android:text="Easy Order Placed"
         android:textSize="@dimen/header_title"
         android:textStyle="bold" />
 
@@ -27,7 +27,7 @@
         android:layout_below="@+id/header_message"
         android:layout_marginTop="45dp"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="23977-live-icon.json"
+        app:lottie_fileName="search-file.json"
         app:lottie_loop="true" />
 
 </RelativeLayout>

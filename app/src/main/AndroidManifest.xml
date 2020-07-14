@@ -11,10 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainMenuDashboardActivity"></activity>
         <activity android:name=".fcm.AccountActivity" />
         <activity android:name=".fcm.ResetPasswordActivity" />
-        <activity android:name=".fcm.LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".fcm.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".fcm.SignupActivity" />
         <activity android:name=".MainActivity" />
         <activity

@@ -16,7 +16,7 @@
         android:gravity="center"
         android:lineSpacingExtra="2dp"
         android:paddingTop="@dimen/padding_large_view"
-        android:text="Daily Quotes and News via Notifications"
+        android:text="Daily Orders Notifications"
         android:textSize="@dimen/header_title"
         android:textStyle="bold" />
 

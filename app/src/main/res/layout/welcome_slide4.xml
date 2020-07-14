@@ -17,7 +17,7 @@
         android:gravity="center"
         android:lineSpacingExtra="2dp"
         android:paddingTop="@dimen/padding_large_view"
-        android:text="New and update original Shabd"
+        android:text="We are commited to provide simple easy platform to our customers"
         android:textSize="@dimen/header_title"
         android:textStyle="bold" />
 

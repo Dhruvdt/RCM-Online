@@ -20,6 +20,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.dhruvdt.rsmonline.Activity.MainMenuDashboardActivity;
 import com.dhruvdt.rsmonline.Util.SessionManager;
 import com.dhruvdt.rsmonline.fcm.LoginActivity;
 
@@ -153,7 +154,7 @@ public class WelcomeActivity extends AppCompatActivity {
             intent.putExtras(bundles);
             startActivity(intent);
         }else {*/
-            startActivity(new Intent(WelcomeActivity.this, LoginActivity.class));
+            startActivity(new Intent(WelcomeActivity.this, MainMenuDashboardActivity.class));
 
        // }
         finish();
