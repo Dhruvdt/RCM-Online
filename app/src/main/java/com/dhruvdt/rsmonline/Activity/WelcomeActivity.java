@@ -1,4 +1,4 @@
-package com.dhruvdt.rsmonline;
+package com.dhruvdt.rsmonline.Activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,9 +20,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.dhruvdt.rsmonline.Activity.MainMenuDashboardActivity;
+import com.dhruvdt.rsmonline.R;
 import com.dhruvdt.rsmonline.Util.SessionManager;
 import com.dhruvdt.rsmonline.fcm.LoginActivity;
+import com.google.firebase.auth.FirebaseAuth;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -144,8 +145,15 @@ public class WelcomeActivity extends AppCompatActivity {
     private int getItem(int i) {
         return viewPager.getCurrentItem() + i;
     }
-
+    private FirebaseAuth auth;
     private void launchHomeScreen() {
+        //Get Firebase auth instance
+        auth = FirebaseAuth.getInstance();
+
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+            finish();
+        }
         sessionManager.setFirstTimeLaunch(false);
     /*    if (sessionManager.getUserLanguage().equals(" ")){
             Intent intent = new Intent(getApplicationContext(), SelectLanguageActivity.class);

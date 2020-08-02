@@ -21,10 +21,6 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-
-
-
                 <LinearLayout
                     android:gravity="bottom"
                     android:orientation="vertical"
@@ -42,7 +38,6 @@
                         android:textSize="20dp"
                         android:layout_gravity="bottom"
                         android:gravity="center"
-                        android:layout_alignParentBottom="true"
                         android:background="@drawable/selection_band_overlay"
                         android:textColor="#5F5B5B"
                         android:layout_width="match_parent"
@@ -125,6 +120,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="@dimen/margin_override_two"
+                                android:id="@+id/placed_order"
                                 android:layout_marginTop="@dimen/margin_override_two"
                                 android:orientation="vertical">
 
@@ -134,7 +130,6 @@
                                     android:layout_gravity="center"
                                     >
                                     <ImageView
-
                                         android:layout_width="80dp"
                                         android:layout_height="80dp"
                                         android:layout_gravity="center"

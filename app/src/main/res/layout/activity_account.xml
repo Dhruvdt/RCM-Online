@@ -154,6 +154,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/remove_user"
+            android:visibility="gone"
             android:textStyle="bold" />
 
         <Button

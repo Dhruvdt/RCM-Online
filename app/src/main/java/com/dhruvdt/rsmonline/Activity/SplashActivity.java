@@ -1,4 +1,4 @@
-package com.dhruvdt.rsmonline;
+package com.dhruvdt.rsmonline.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
